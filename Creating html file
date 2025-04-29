@@ -1,0 +1,14 @@
+✅ Create Your First HTML File Using VS Code
+Open VS Code
+Click File → New File
+Save the file as index.html or filename.html
+If you installed the Live Server extension, right-click on the file → Open with Live Server Or just open the file manually in a browser (double-click index.html)
+
+✅HTML file in notepad
+Open notepad
+Type your code
+Save it as index.html or "filename".html
+Then double click the file from your File Explorer
+The web browser will open displaying your HTML output
+
+
