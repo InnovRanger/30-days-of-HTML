@@ -1,10 +1,12 @@
-🌐 30 Days of HTML Challenge
 
-I'm committing to learning HTML for 30 days and posting my daily progress here.
+# 📅 30 Days of Basic HTML Learning Challenge
 
-## 📅 Progress Tracker
+Welcome to my HTML learning journey! For the next 30 days, I will be learning and practicing HTML daily. This repository will contain my daily progress, code, and notes.
+
+## 🗓️ Learning Schedule
 
 | Day | Topic |
+|-----|-------|
 | **Day 1** | What is HTML? Install VS Code & Create First HTML File |
 | **Day 2** | HTML Document Structure: `<!DOCTYPE>`, `<html>`, `<head>`, `<body>` |
 | **Day 3** | Headings: `<h1>` to `<h6>` |
