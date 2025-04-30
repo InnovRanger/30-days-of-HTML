@@ -1,0 +1,24 @@
+🧱 Basic HTML Document Structure
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML page.</p>
+  </body>
+</html>
+
+📖 Explanation of Each Part:
+
+<!DOCTYPE html> :	Declares that this is an HTML5 document (must be the first line).
+<html> :	The root of the HTML document; all content goes inside this tag.
+<head> : Contains metadata (data about the page), not shown on the page itself.
+<meta charset="UTF-8"> : Tells the browser to use UTF-8 character encoding (supports all languages).
+<title>	: Sets the title of the web page (shown on the browser tab).
+<body> : Contains everything that is visible on the page — text, images, links, etc.
+<h1> : Heading tag – usually the main title of the page.
+<p> :	Paragraph tag – used for blocks of text.
