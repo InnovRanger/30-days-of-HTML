@@ -1,0 +1,33 @@
+HTML Headings
+✅ What are Headings in HTML?
+HTML headings are used to define titles and subheadings on a webpage. They help organize content and improve SEO and accessibility.
+
+🧱 HTML Heading Tags:
+HTML provides 6 levels of headings:
+<h1>This is Heading 1</h1>
+<h2>This is Heading 2</h2>
+<h3>This is Heading 3</h3>
+<h4>This is Heading 4</h4>
+<h5>This is Heading 5</h5>
+<h6>This is Heading 6</h6>
+
+
+--<h1> is the largest and most important, usually used once for the main title.
+--<h6> is the smallest and least important.
+--Browsers display them with decreasing font size by default, but you can style them with CSS later.
+
+Example Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Headings</title>
+  </head>
+  <body>
+    <h1>Main Heading (h1)</h1>
+    <h2>Subheading (h2)</h2>
+    <h3>Section Title (h3)</h3>
+    <h4>Subsection (h4)</h4>
+    <h5>Minor Heading (h5)</h5>
+    <h6>Smallest Heading (h6)</h6>
+  </body>
+</html>
