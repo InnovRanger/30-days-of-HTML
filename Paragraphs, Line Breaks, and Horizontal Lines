@@ -1,0 +1,38 @@
+Paragraphs, Line Breaks, and Horizontal Lines
+
+1. Paragraphs: <p>
+--Used to define blocks of text.
+<p>This is a paragraph of text in HTML.</p>
+--Browsers automatically add space before and after paragraphs.
+
+2. Line Breaks: <br>
+--Used to break a line without starting a new paragraph.
+<p>This is line one.<br>This is line two (after break).</p>
+--It’s a self-closing tag (no </br> needed).
+
+3. Horizontal Lines: <hr>
+--Used to insert a horizontal line — often for section separation.
+<p>This is above the line.</p>
+<hr>
+<p>This is below the line.</p>
+--Also a self-closing tag.
+
+👨‍💻 Example Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Paragraphs and Lines</title>
+  </head>
+  <body>
+    <h1>Day 4: Paragraphs, Breaks, and Lines</h1>
+    
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph. It is separate from the first one.</p>
+    
+    <p>Line break example:<br>Line 1<br>Line 2<br>Line 3</p>
+    
+    <hr>
+    
+    <p>This text is after a horizontal line.</p>
+  </body>
+</html>
