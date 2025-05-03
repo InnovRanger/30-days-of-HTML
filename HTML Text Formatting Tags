@@ -1,0 +1,34 @@
+HTML Text Formatting Tags
+
+Common Formatting Tags:
+--Tag	Meaning	Display
+<b>	: Bold (non-important)
+<strong>	: Strong importance	
+<i> :	Italic (non-important)
+<em>	: Emphasis (semantic italic)	
+<u>	: Underline
+<mark>	: Highlighted/Marked text
+
+Example Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Text Formatting</title>
+  </head>
+  <body>
+    <h1>Day 5: Text Formatting in HTML</h1>
+
+    <p>This is <b>bold</b> using the <code>&lt;b&gt;</code> tag.</p>
+    <p>This is <strong>strongly important</strong> using <code>&lt;strong&gt;</code>.</p>
+    
+    <p>This is <i>italic</i> using <code>&lt;i&gt;</code>.</p>
+    <p>This is <em>emphasized</em> using <code>&lt;em&gt;</code>.</p>
+    
+    <p>This is <u>underlined</u> using <code>&lt;u&gt;</code>.</p>
+    <p>This is <mark>highlighted</mark> using <code>&lt;mark&gt;</code>.</p>
+  </body>
+</html>
+
+Notes:
+--<strong> and <em> are semantic — they help with SEO and accessibility.
+--Use <b> and <i> when it's purely visual, not meaning-based.
