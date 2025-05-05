@@ -1,0 +1,36 @@
+HTML Links:
+
+✅ Basic Link Syntax:
+<a href="https://www.example.com">Visit Example</a>
+
+--href is the destination URL
+--The text between <a> and </a> is the clickable part
+
+✅ Open Link in a New Tab
+<a href="https://www.google.com" target="_blank">Open Google in New Tab</a>
+
+--target="_blank" makes the link open in a new tab
+
+✅ Add Title (Optional Tooltip)
+<a href="https://www.w3schools.com" title="Learn web development">Visit W3Schools</a>
+
+Example Code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Links</title>
+  </head>
+  <body>
+    <h1>Day 7: HTML Links</h1>
+
+    <p>Here is a normal link:</p>
+    <a href="https://www.example.com">Go to Example.com</a>
+
+    <p>Here is a link that opens in a new tab:</p>
+    <a href="https://www.google.com" target="_blank">Open Google</a>
+
+    <p>Here is a link with a title tooltip:</p>
+    <a href="https://www.w3schools.com" title="Great resource to learn HTML">Visit W3Schools</a>
+  </body>
+</html>
