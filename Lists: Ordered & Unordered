@@ -1,0 +1,59 @@
+HTML Lists: Ordered & Unordered
+
+1. Ordered List (<ol>):
+--Displays a numbered list.
+
+<ol>
+  <li>Wake up</li>
+  <li>Brush teeth</li>
+  <li>Eat breakfast</li>
+</ol>
+
+✅ 2. Unordered List (<ul>):
+--Displays a bulleted list.
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+✅ 3. Nested Lists:
+
+<ul>
+  <li>Frontend
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </li>
+  <li>Backend</li>
+</ul>
+
+Example Code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Lists</title>
+  </head>
+  <body>
+    <h1>Day 6: Ordered & Unordered Lists</h1>
+
+    <h2>Ordered List:</h2>
+    <ol>
+      <li>Learn HTML</li>
+      <li>Practice daily</li>
+      <li>Build projects</li>
+    </ol>
+
+    <h2>Unordered List:</h2>
+    <ul>
+      <li>VS Code</li>
+      <li>Chrome</li>
+      <li>GitHub</li>
+    </ul>
+  </body>
+</html>
+
