@@ -1,0 +1,31 @@
+Images in HTML: 
+
+Basic Image Syntax:
+<img src="path-to-image.jpg" alt="Description of image">
+
+--src = source of the image (URL or file path)
+--alt = alternative text (shown if image can't load; good for accessibility)
+
+Example with Local Image:
+<img src="images/dog.jpg" alt="Cute Dog" width="300" height="200">
+--width and height control image size (in pixels)
+
+Example with Online Image:
+<img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp Image">
+
+Example Code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Images</title>
+  </head>
+  <body>
+    <h1>Day 8: Adding Images in HTML</h1>
+
+    <h2>Local Image</h2>
+    <img src="images/sample.jpg" alt="Sample Local Image" width="300" height="200">
+
+    <h2>Online Image</h2>
+    <img src="https://
+
