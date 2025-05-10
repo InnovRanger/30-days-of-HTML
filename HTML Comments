@@ -1,0 +1,33 @@
+HTML Comments
+
+What is a Comment?
+--An HTML comment is a note or instruction written inside the code that browsers ignore. It's used for:
+1.Explaining code
+2.Temporarily hiding parts of HTML
+3.Leaving reminders for developers
+
+Comment Syntax:
+<!-- This is a comment -->
+--You can place comments anywhere in your HTML code.
+
+Example Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Comments</title>
+  </head>
+  <body>
+    <h1>Day 9: Comments in HTML</h1>
+
+    <!-- This is a comment explaining the next paragraph -->
+    <p>This paragraph is visible in the browser.</p>
+
+    <!-- <p>This paragraph is hidden and won't be shown.</p> -->
+
+    <p>This is another visible paragraph.</p>
+  </body>
+</html>
+
+Tip:
+--Use comments to organize sections of your HTML.
+--Avoid putting sensitive information in comments — users can still view them in the browser’s developer tools.
