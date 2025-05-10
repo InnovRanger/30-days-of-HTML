@@ -1,0 +1,86 @@
+Basic Page Layout with <div>
+
+Objective:
+--You’ll learn how to use <div> to structure a basic web page into sections like:
+1.Header
+2.Navigation
+3.Main Content
+4.Sidebar
+5.Footer
+
+Example HTML Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 11: Page Layout with div</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      .header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .nav {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+      }
+      .main {
+        display: flex;
+      }
+      .content {
+        flex: 70%;
+        padding: 20px;
+      }
+      .sidebar {
+        flex: 30%;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+      .footer {
+        background-color: #ddd;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>My Website</h1>
+      <p>Day 11: Basic Layout using &lt;div&gt;</p>
+    </div>
+
+    <div class="nav">
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="main">
+      <div class="content">
+        <h2>Main Content Area</h2>
+        <p>This is the main section of the webpage.</p>
+      </div>
+
+      <div class="sidebar">
+        <h3>Sidebar</h3>
+        <p>Extra content like links or ads can go here.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 My First Website</p>
+    </div>
+
+  </body>
+</html>
+
+What You Learn:
+--How to divide your page into sections using <div>
+--How CSS helps layout these sections side-by-side or stacked
+--Basics of flexbox layout with .main
