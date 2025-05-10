@@ -1,0 +1,48 @@
+div and span in HTML
+
+What are div and span?
+| Tag      | Meaning          | Display Type | Use For                   |
+| -------- | ---------------- | ------------ | ------------------------- |
+| `<div>`  | Division         | Block        | Grouping sections/blocks  |
+| `<span>` | Inline Container | Inline       | Styling small text pieces |
+
+1. <div> – Block Container
+--Used to group multiple elements.
+--Takes up the full width by default.
+Code:
+<div>
+  <h2>This is inside a div</h2>
+  <p>Div groups block-level content.</p>
+</div>
+
+2. <span> – Inline Container
+--Wraps inline text or content.
+--Doesn’t start a new line.
+Code:
+<p>This is a <span style="color: blue;">blue</span> word in a sentence.</p>
+
+Example Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Div and Span</title>
+  </head>
+  <body>
+    <h1>Day 10: Layout Basics – Div and Span</h1>
+
+    <!-- Using div to group content -->
+    <div style="border: 1px solid gray; padding: 10px;">
+      <h2>Section Title</h2>
+      <p>This paragraph is inside a div.</p>
+    </div>
+
+    <br>
+
+    <!-- Using span to style inline content -->
+    <p>This sentence has a <span style="color: red; font-weight: bold;">highlighted word</span> using span.</p>
+  </body>
+</html>
+
+Notes:
+--Use <div> for layout containers, sections, cards, etc.
+--Use <span> for styling parts of text within elements like <p> or <h1>.
