@@ -1,0 +1,70 @@
+Create a Simple Web Page
+
+Objective:
+--Build a basic personal info webpage that includes:
+1.A heading and paragraph
+2.An image
+3.Some links
+4.A structured layout using <div>
+
+Example Code – My Simple Web Page
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple Web Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .main {
+        padding: 20px;
+      }
+      .profile-img {
+        width: 150px;
+        border-radius: 50%;
+      }
+      .footer {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Hello! I'm [Your Name]</h1>
+      <p>Welcome to my first HTML web page</p>
+    </div>
+
+    <div class="main">
+      <img src="https://via.placeholder.com/150" alt="My Photo" class="profile-img">
+      <p>I am currently learning <strong>HTML</strong> as part of a 30-day challenge.</p>
+      <p>Here are some of my favorite websites:</p>
+      <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 [Your Name]</p>
+    </div>
+
+  </body>
+</html>
+
+Notes:
+--Replace [Your Name] with your real name.
+--You can use a real image or keep the placeholder.
+--This combines everything you've learned up to Day 12!
