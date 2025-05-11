@@ -1,0 +1,63 @@
+HTML Attributes: title, id, class
+What Are Attributes?
+--Attributes in HTML provide additional information about elements. They're always included inside the opening tag.
+
+1. title Attribute
+--Shows a tooltip when you hover over the element.
+<p title="This is a tooltip!">Hover over this text to see the title.</p>
+
+2. id Attribute
+--A unique identifier for an element.
+--Used for styling, JavaScript, or linking.
+<p id="intro">This is an introduction paragraph.</p>
+
+You can style this in CSS like:
+<style>
+  #intro {
+    color: blue;
+  }
+</style>
+
+3. class Attribute
+--Used to define a group of elements with the same style.
+<p class="highlight">This is a highlighted paragraph.</p>
+<p class="highlight">This one is also highlighted.</p>
+
+Style using CSS:
+<style>
+  .highlight {
+    background-color: yellow;
+  }
+</style>
+
+Full Example Code:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 13: HTML Attributes</title>
+  <style>
+    #intro {
+      color: green;
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: #fffa9c;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Day 13: HTML Attributes</h1>
+  <p title="Hover to see this tooltip!">Hover your mouse over this paragraph.</p>
+  <p id="intro">This paragraph has a unique ID and is styled differently.</p>
+  <p class="highlight">This paragraph is highlighted using class attribute.</p>
+  <p class="highlight">This is another highlighted paragraph.</p>
+</body>
+</html>
+
+Summary:
+| Attribute | Use Case                                            |
+| --------- | --------------------------------------------------- |
+| `title`   | Shows tooltip on hover                              |
+| `id`      | Uniquely identifies one element                     |
+| `class`   | Applies same style or behavior to multiple elements |
