@@ -1,0 +1,98 @@
+HTML Tables
+
+Table Tags Overview:
+| Tag       | Meaning                               |
+| --------- | ------------------------------------- |
+| `<table>` | Defines the **table** itself          |
+| `<tr>`    | **Table row**                         |
+| `<td>`    | **Table data** cell (normal cell)     |
+| `<th>`    | **Table header** cell (bold/centered) |
+
+Basic Table Structure:
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>22</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+    <td>25</td>
+    <td>India</td>
+  </tr>
+</table>
+
+Add Styling for Better Appearance:
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 60%;
+  }
+  th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+
+Full Example Code
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 14: HTML Tables</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Day 14: Creating Tables in HTML</h1>
+
+  <table>
+    <tr>
+      <th>Student Name</th>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Math</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>Sara</td>
+      <td>Science</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>Mike</td>
+      <td>English</td>
+      <td>78</td>
+    </tr>
+  </table>
+
+</body>
+</html>
