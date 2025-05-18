@@ -1,0 +1,48 @@
+Forms (Part 2): radio, checkbox, submit, reset
+
+Example Code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 16: Form Inputs - Part 2</title>
+</head>
+<body>
+
+  <h1>Day 16: Form Elements - Radio, Checkbox, Submit & Reset</h1>
+
+  <form action="/submit" method="post">
+    
+    <h3>1. Choose Your Gender:</h3>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br>
+
+    <h3>2. Select Your Hobbies:</h3>
+    <input type="checkbox" id="reading" name="hobby" value="Reading">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" id="traveling" name="hobby" value="Traveling">
+    <label for="traveling">Traveling</label><br>
+
+    <input type="checkbox" id="coding" name="hobby" value="Coding">
+    <label for="coding">Coding</label><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset Form">
+
+  </form>
+
+</body>
+</html>
+
+Explanation:
+--radio inputs are grouped by the same name="gender" so only one can be selected.
+--checkbox inputs can have different name or the same — all can be checked.
+--submit sends the form.
+--reset clears all form fields.
