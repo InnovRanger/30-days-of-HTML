@@ -1,0 +1,40 @@
+Forms (Part 3): <label>, <textarea>, <select>
+
+Example Code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 17: Form Elements Part 3</title>
+</head>
+<body>
+
+  <h1>Day 17: Label, Textarea, Select</h1>
+
+  <form action="/submit" method="post">
+
+    <label for="bio">Your Bio:</label><br>
+    <textarea id="bio" name="bio" rows="5" cols="40" placeholder="Write something about yourself..."></textarea><br><br>
+
+    <label for="country">Choose your country:</label><br>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="canada">Canada</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
+
+Explanation:
+--<label for="id">: Connects a label to an input element using the id.
+--<textarea>: Lets users enter multiple lines of text.
+--<select>: Creates a dropdown menu.
+--<option>: Defines choices inside the dropdown.
+
+
