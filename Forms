@@ -1,0 +1,35 @@
+Forms (Part 1): <form>, <input>, type="text"
+
+What is a Form?
+--A form is used to collect user input. You’ll learn to create a basic form with text input.
+
+Example Code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 15: HTML Forms - Part 1</title>
+</head>
+<body>
+
+  <h1>Day 15: Basic Form</h1>
+
+  <form action="/submit" method="post">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
+
+✅ Explanation:
+--<form> wraps the entire form.
+--action="/submit" is where the form data goes (can be a real or dummy URL).
+--<input type="text"> creates text boxes.
+--name="..." lets the backend know what each input field is for.
+--placeholder="..." gives users a hint on what to enter.
